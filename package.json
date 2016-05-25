@@ -1,0 +1,25 @@
+{
+  "name": "es6-nodejs-kit",
+  "version": "1.0.0",
+  "description": "es6-starter-kit for best practice guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha -c --recursive src/**/*.spec.js",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive ./src/**/*.spec.js",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fartbagxp/es6-nodejs-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fartbagxp/es6-nodejs-kit/issues"
+  },
+  "homepage": "https://github.com/fartbagxp/es6-nodejs-kit#readme",
+  "dependencies": {
+    "superagent": "^2.0.0-alpha.3"
+  }
+}
